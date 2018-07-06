@@ -7,7 +7,7 @@ test_interval: 800    # 409479/512=799.
 test_initialization: false
 display: 80
 base_lr: 0.001
-lr_policy: "step"
+lr_policy: "multistep"
 #stepsize: 8000  # every 10 epochs
 #stepvalue: 8000
 #stepvalue: 16000
