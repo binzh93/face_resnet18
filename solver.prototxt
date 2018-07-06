@@ -1,4 +1,6 @@
-net: "face_attr.prototxt"
+#net: "face_attr.prototxt"
+train_net: "face_attr_train.prototxt"
+test_net: "face_attr_test.prototxt"
 #iter_step: 2
 test_iter: 28        # 8188/300=27.2
 test_interval: 800    # 409479/512=799.
